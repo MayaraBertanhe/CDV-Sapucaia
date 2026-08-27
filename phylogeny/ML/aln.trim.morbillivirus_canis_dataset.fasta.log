@@ -1,0 +1,462 @@
+IQ-TREE multicore version 2.3.6 for MacOS ARM 64-bit built Aug  4 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    Mayaras-MacBook-Air-5.local (SSE4.2, 8 GB RAM)
+Command: iqtree -T 4 -s aln.trim.morbillivirus_canis_dataset.fasta -m TEST -bb 1000
+Seed:    294970 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Apr  8 18:44:21 2026
+Kernel:  SSE2 - 4 threads (8 CPU cores detected)
+
+Reading alignment file aln.trim.morbillivirus_canis_dataset.fasta ... Fasta format detected
+Reading fasta file: done in 0.048835 secs using 83.23% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 248 sequences with 15477 columns, 7308 distinct patterns
+6234 parsimony-informative, 1355 singleton sites, 7888 constant sites
+WARNING: Some sequence names are changed as follows:
+OR777862.1||CDV(Dog)/Bly/Ind/2018|India|Canis_lupus_familiaris|2018 -> OR777862.1||CDV_Dog_/Bly/Ind/2018|India|Canis_lupus_familiaris|2018
+MK408453.1||LNDL(17)M4|China|Mustela_lutreola|2017-06 -> MK408453.1||LNDL_17_M4|China|Mustela_lutreola|2017-06
+MK408454.1||SDZC(17)M2|China|Mustela_lutreola|2017-06 -> MK408454.1||SDZC_17_M2|China|Mustela_lutreola|2017-06
+KP765763.1||SD(14)7|China|Canidae|2014-07-03 -> KP765763.1||SD_14_7|China|Canidae|2014-07-03
+KP765764.1||LN(10)1|China|Canidae|2010 -> KP765764.1||LN_10_1|China|Canidae|2010
+
+                                                                                       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00156593 secs using 246.8% CPU
+   1  sample-523|BrazilMG|Caratinga|Callithrix_penicillata|2022-05-23                          0.39%    passed     90.49%
+   2  sample-NP27|Brazil|MG|Montes_Claros|Callithrix_penicillata|2022-05-27                    0.00%    passed     91.56%
+   3  PZ043803.1||Ca_CDV_2|China|Canis_lupus_familiaris|2020                                   0.00%    passed     99.52%
+   4  PZ043805.1||Ca_CDV_4|China|Canis_lupus_familiaris|2020                                   0.00%    passed     96.28%
+   5  PX938970.1||RO15DJUSVT|Romania|Canis_lupus_familiaris|2023-07-24                         0.83%    passed     96.76%
+   6  PX938971.1||RO16DJUSVT|Romania|Canis_lupus_familiaris|2023-09-14                         0.83%    passed     95.75%
+   7  PX734733.1||145_10|Italy|Vulpes_vulpes|2010                                              1.30%    passed     95.67%
+   8  PX734734.1||152_06|Italy|Canis_lupus_familiaris|2006                                     1.30%    passed     99.60%
+   9  PX734735.1||190_16|Italy|Canis_lupus_familiaris|2016                                     1.30%    passed     98.57%
+  10  PX734736.1||199_05|Italy|Canis_lupus_familiaris|2005                                     1.30%    passed     99.84%
+  11  PX734737.1||201_13|Italy|Canis_lupus_familiaris|2013                                     1.30%    passed     98.74%
+  12  PX734738.1||202_10|Italy|Canis_lupus_familiaris|2010                                     1.30%    passed     99.81%
+  13  PX734739.1||224_05|Italy|Canis_lupus_familiaris|2005                                     1.30%    passed     99.80%
+  14  PX734740.1||24_15|Italy|Canis_lupus_familiaris|2015                                      1.30%    passed     99.26%
+  15  PX734741.1||259_14|Italy|Canis_lupus_familiaris|2014                                     1.30%    passed     99.23%
+  16  PX734742.1||290_08|Italy|Canis_lupus_familiaris|2008                                     1.30%    passed     96.30%
+  17  PX734743.1||310_15|Italy|Canis_lupus_familiaris|2015                                     1.30%    passed     97.42%
+  18  PX734744.1||338_13|Italy|Canis_lupus_familiaris|2013                                     1.30%    passed     98.03%
+  19  PX734745.1||350_09|Italy|Vulpes_vulpes|2009                                              1.30%    passed     95.71%
+  20  PX734746.1||359_13|Italy|Canis_lupus_familiaris|2013                                     1.30%    passed     98.85%
+  21  PX734747.1||364_06|Italy|Canis_lupus_familiaris|2006                                     1.30%    passed     99.90%
+  22  PX734748.1||403_09|Italy|Vulpes_vulpes|2009                                              1.30%    passed     95.58%
+  23  PX734749.1||412_19|Italy|Canis_lupus_familiaris|2019                                     1.30%    passed     95.87%
+  24  PX734750.1||417_09|Italy|Canis_lupus_familiaris|2009                                     1.30%    passed     99.72%
+  25  PX734751.1||425_19|Italy|Canis_lupus_familiaris|2019                                     1.30%    passed     96.42%
+  26  PX734752.1||592_18|Italy|Canis_lupus_familiaris|2018                                     1.30%    passed     97.62%
+  27  PX734753.1||856_17|Italy|Canis_lupus_familiaris|2017                                     1.30%    passed     96.73%
+  28  PX734754.1||97_11|Italy|Canis_lupus_familiaris|2011                                      1.30%    passed     99.61%
+  29  PX734755.1||99_16|Italy|Canis_lupus_familiaris|2016                                      1.30%    passed     98.89%
+  30  PP847348.1||NHP-3_BR|Brazil|Callithrix_penicillata|2018-06                               0.00%    passed     90.84%
+  31  PP847349.1||CT-1_BR|Brazil|Cerdocyon_thous|2018-06                                       0.00%    passed     84.00%
+  32  PP847350.1||NHP-4_BR|Brazil|Callithrix_penicillata|2018-06                               0.00%    passed     90.84%
+  33  PP847351.1||NHP-2_BR|Brazil|Callithrix_penicillata|2018-06                               0.00%    passed     90.84%
+  34  PP847352.1||NHP-1_BR|Brazil|Callithrix_penicillata|2018-06                               0.00%    passed     90.84%
+  35  OR506461.1|||China|Sus_scrofa|2019                                                       0.00%    passed     87.74%
+  36  PV778033.1||CDV/TUR/6529/2025|Turkey||2025                                               0.00%    passed     98.00%
+  37  PV778034.1||CDV/TUR/6535/2025|Turkey||2025                                               0.01%    passed     97.98%
+  38  PQ584613.1|||Italy|Mustelidae|2022                                                       0.00%    passed     98.88%
+  39  PV102958.1||Arctocephalus/Kaikoura/2024|New_Zealand|Arctocephalus_forsteri|2024-10-23    1.29%    passed     72.52%
+  40  PQ860808.1||LY|China|Canis_lupus_familiaris|2024                                         0.03%    passed     92.73%
+  41  PQ464015.1||LARBOH_4495/2022|Brazil|Callithrix_sp.|2022-08-30                            0.12%    passed     98.60%
+  42  PQ474983.1|Asia-1|BJ-YE|China|Canis_lupus_familiaris|2023                                0.00%    passed     94.79%
+  43  OR777862.1||CDV_Dog_/Bly/Ind/2018|India|Canis_lupus_familiaris|2018                      0.00%    passed     99.95%
+  44  PP498903.1||CDV/VN-CTU/AnGiang/AG01-2022|Viet_Nam|Canis_lupus_familiaris|2023            0.00%    passed     99.83%
+  45  PP498904.1||CDV/VN-CTU/BenTre/BT04-2023|Viet_Nam|Canis_lupus_familiaris|2023             0.00%    passed     98.85%
+  46  PP498905.1||CDV/VN-CTU/CaMau/CM05-2023|Viet_Nam|Canis_lupus_familiaris|2023              0.00%    passed     99.66%
+  47  PP498906.1||CDV/VN-CTU/DongThap/DT04-2023|Viet_Nam|Canis_lupus_familiaris|2023           0.00%    passed     99.69%
+  48  PP498907.1||CDV/VN-CTU/VinhLong/2023|Viet_Nam|Canis_lupus_familiaris|2023                0.00%    passed     99.69%
+  49  PP498908.1||CDV/VN-CTU/TraVinh/TV06-2022|Viet_Nam|Canis_lupus_familiaris|2023            0.00%    passed     98.82%
+  50  PP434477.1||TI0692303A01/CDV/CT|Viet_Nam|Canis_lupus_familiaris|2023                     0.00%    passed     99.79%
+  51  OR880598.1||107|Bangladesh|Canis_lupus_familiaris|2023-02-28                             0.92%    passed     98.62%
+  52  OR880599.1||114|Bangladesh|Canis_lupus_familiaris|2023-02-28                             0.83%    passed     98.46%
+  53  OR880600.1||120|Bangladesh|Canis_lupus_familiaris|2023-02-28                             0.83%    passed     98.24%
+  54  OR880601.1||129|Bangladesh|Canis_lupus_familiaris|2023-02-28                             1.37%    passed     99.40%
+  55  OR880602.1||297|Bangladesh|Canis_lupus_familiaris|2023-06-20                             0.83%    passed     99.60%
+  56  OR514512.2||CDV_Dog3_Mongolia|Mongolia|Canis_lupus_familiaris|2021                       0.06%    passed     99.13%
+  57  OR514513.2||CDV_Dog2_Mongolia|Mongolia|Canis_lupus_familiaris|2021                       0.06%    passed     97.34%
+  58  OR514514.2||CDV_Dog1_Mongolia|Mongolia|Canis_lupus_familiaris|2021                       0.06%    passed     97.54%
+  59  OQ448874.1||SD16F-P35|China||2022-09                                                     0.00%    passed     98.51%
+  60  OQ442787.1||1AP|Kazakhstan|Pusa_caspica|2008-11                                          0.00%    passed     96.64%
+  61  OQ442788.1||1BN|Kazakhstan|Pusa_caspica|2008-11                                          0.00%    passed     96.64%
+  62  OL912949.1||necropsy_1|USA|Canidae|2021-09-20                                            0.74%    passed     89.66%
+  63  OM811640.1||Hungary/2006|Hungary|Lutra_lutra|2006-11-23                                  1.09%    passed     99.74%
+  64  ON206669.1|Asia-1|HLJ21-10|China|Canis_lupus_familiaris|2021-10                          0.00%    passed     99.94%
+  65  OL441592.1|||Australia|Mustela_putorius_furo|2019                                        0.17%    passed     78.83%
+  66  OL441593.1|||Australia|Mustela_putorius_furo|2019                                        0.17%    passed     77.42%
+  67  OL441594.1|||Australia|Mustela_putorius_furo|2019                                        0.64%    passed     84.06%
+  68  OL441595.1|||Australia|Mustela_putorius_furo|2019                                        0.00%    passed     77.86%
+  69  OL441596.1|||Australia|Mustela_putorius_furo|2019                                        0.00%    passed     90.13%
+  70  OL441597.1|||Australia|Mustela_putorius_furo|2019                                        0.00%    passed     86.89%
+  71  OL441598.1|||Australia|Mustela_putorius_furo|2019                                        0.00%    passed     85.58%
+  72  OL441599.1|||Australia|Mustela_putorius_furo|2019                                        0.00%    passed     85.58%
+  73  OL441600.1|||Australia|Mustela_putorius_furo|2019                                        0.00%    passed     85.77%
+  74  OL441601.1|||Australia||2019                                                             0.01%    passed     89.02%
+  75  OL441602.1|||Australia||2019                                                             0.00%    passed     89.30%
+  76  OP209185.1|||Hungary|Mustela_eversmannii|2021-03-02                                      1.48%    passed     97.08%
+  77  OP209186.1|||Hungary|Mustela_eversmannii|2018-12-07                                      1.55%    passed     99.58%
+  78  OP209187.1|||Hungary|Mustela_putorius|2019-03-26                                         1.48%    passed     95.60%
+  79  OP209188.1|||Hungary|Martes_foina|2020-12-01                                             1.48%    passed     98.34%
+  80  OP209189.1|||Hungary|Martes_foina|2007                                                   1.48%    passed     97.03%
+  81  OK557779.1||Hungary/2021/1|Hungary|Vulpes_vulpes|2021                                    1.48%    passed     99.91%
+  82  OK557780.1||Hungary/2021/2|Hungary|Vulpes_vulpes|2021                                    1.48%    passed     99.76%
+  83  OK557781.1||Hungary/2021/3|Hungary|Vulpes_vulpes|2021                                    1.48%    passed     99.87%
+  84  OK557782.1||Hungary/2021/4|Hungary|Vulpes_vulpes|2021                                    1.48%    passed     99.86%
+  85  OK557783.1||Hungary/2021/5|Hungary|Vulpes_vulpes|2021                                    1.48%    passed     99.89%
+  86  OK557784.1||Hungary/2021/6|Hungary|Vulpes_vulpes|2021                                    1.48%    passed     99.74%
+  87  OK557785.1||Hungary/2021/7|Hungary|Vulpes_vulpes|2021                                    1.48%    passed     99.68%
+  88  OK557786.1||Hungary/2021/8|Hungary|Vulpes_vulpes|2021                                    1.48%    passed     99.68%
+  89  OK557787.1||Hungary/2021/9|Hungary|Vulpes_vulpes|2021                                    1.48%    passed     99.87%
+  90  OK557788.1||Hungary/2021/10|Hungary|Vulpes_vulpes|2021                                   1.48%    passed     99.91%
+  91  OK557789.1||Hungary/2021/11|Hungary|Vulpes_vulpes|2021                                   1.48%    passed     99.76%
+  92  OK557790.1||Hungary/2021/12|Hungary|Vulpes_vulpes|2021                                   1.48%    passed     99.82%
+  93  OK557791.1||Hungary/2021/14|Hungary|Vulpes_vulpes|2021                                   1.48%    passed     99.81%
+  94  OK557792.1||Hungary/2021/16|Hungary|Vulpes_vulpes|2021                                   1.48%    passed     99.82%
+  95  OK557793.1||Hungary/2021/17|Hungary|Vulpes_vulpes|2021                                   1.48%    passed     99.82%
+  96  OK557794.1||Hungary/2021/18|Hungary|Vulpes_vulpes|2021                                  10.47%    passed     88.41%
+  97  OK557795.1||Hungary/2021/19|Hungary|Vulpes_vulpes|2021                                  10.47%    passed     89.07%
+  98  OK557796.1||Hungary/2021/20|Hungary|Vulpes_vulpes|2021                                  10.47%    passed     91.41%
+  99  OK557797.1||Hungary/2021/21|Hungary|Vulpes_vulpes|2021                                  10.48%    passed     91.94%
+ 100  MW239877.1|Asia-1||China|Canis_lupus_familiaris|2020-08-28                               0.00%    passed     97.97%
+ 101  MW713449.1|Asia-1||China|Canis_lupus_familiaris|2019                                     0.00%    passed     84.82%
+ 102  MW876862.2||Jackal/India-Assam/2019/0198|India||2019-03-23                               0.00%    passed     99.43%
+ 103  MW535267.1|Asia-6|Red_panda/SC18/China|China|Ailurus_fulgens|2018-10                     0.00%    passed     99.85%
+ 104  MW535268.1|Asia-6|Red_panda/JS19/China|China|Ailurus_fulgens|2019-05                     0.00%    passed     99.87%
+ 105  OL675426.1||NT|China|Canis_lupus_familiaris|2020-08-09                                   0.00%    passed     99.44%
+ 106  MW980440.1|Asia-1|GS-20-12|China|Canis_lupus_familiaris|2020-12-10                       0.00%    passed     98.65%
+ 107  MW020699.1|Asia-1|NJ04|China|Canis_lupus_familiaris|2018                                 0.00%    passed     98.23%
+ 108  MW600730.1||GS20-11|China|Canis_lupus_familiaris|2020-12-10                              0.00%    passed     99.64%
+ 109  MW460905.1|Europe/South|JA88/2020|Brazil|Canis_lupus_familiaris|2019                     0.00%    passed     94.82%
+ 110  MT448054.1|||China|Paguma_larvata|2019                                                   0.00%    passed     95.99%
+ 111  MT932491.1||CFA209|USA|Canis_lupus_familiaris|2013-11-12                                11.86%    passed     72.19%
+ 112  MT932492.1||JSP1|Tanzania||2006-07-20                                                    5.58%    passed     98.83%
+ 113  MT932493.1||CME10|Kenya|Canis_mesomelas|2000-03-06                                       6.01%    passed     99.64%
+ 114  MT932494.1||CFA203|USA|Canis_lupus_familiaris|2013-01-22                                 0.00%    passed     88.25%
+ 115  MT932495.1||CFA204|USA|Canis_lupus_familiaris|2013-06-24                                 0.00%    passed     88.09%
+ 116  MT932496.1||CFA205|USA|Canis_lupus_familiaris|2013-06-07                                 0.00%    passed     92.70%
+ 117  MT932497.1||CFA207|USA||2013-11-12                                                      19.19%    passed     51.85%
+ 118  MT932498.1||CFA210|USA|Canis_lupus_familiaris|2012-11-12                                 0.00%    passed     88.13%
+ 119  MT932499.1||CFADD19|Kenya|Canis_lupus_familiaris|2000-02-28                              0.00%    passed     97.54%
+ 120  MT932500.1||CFADD24|Kenya|Canis_lupus_familiaris|2000-02-28                              0.00%    passed     97.54%
+ 121  MT932501.1||CME11|Kenya|Canis_mesomelas|2000-03-03                                       0.00%    passed     97.85%
+ 122  MT932502.1||CME16|Kenya|Canis_mesomelas|2000-03-17                                       0.00%    passed     98.15%
+ 123  MT932503.1||LPI1561|Tanzania|Lycaon_pictus|2007-10-03                                   12.39%    passed     95.48%
+ 124  MT932504.1||PLE806|USA|Panthera_leo|1992-09-01                                           0.00%    passed     94.27%
+ 125  MT932505.1||PLO004|USA|Procyon_lotor|1992-01-01                                          0.00%    passed     92.39%
+ 126  MT932506.1||PLO005|USA|Procyon_lotor|2013-03-02                                          5.89%    passed     67.23%
+ 127  MT932507.1||UCI001|USA|Urocyon_cinereoargenteus|2013-03-29                               5.10%    passed     65.17%
+ 128  MT932508.1||PLO006|USA|Procyon_lotor|2013-03-13                                          0.00%    passed     86.57%
+ 129  MT932509.1||PLO007|USA|Procyon_lotor|2013-03-26                                          0.00%    passed     84.61%
+ 130  MT932510.1||PLO008|USA|Procyon_lotor|2013-04-09                                          0.00%    passed     86.41%
+ 131  MT932511.1||PPA202|USA|Panthera_pardus|1992-10-15                                        0.00%    passed     94.35%
+ 132  MN296413.1|||China|Canis_lupus_familiaris|2011                                           0.00%    passed     94.00%
+ 133  MN365662.1||Bruno|Argentina|Canis_lupus_familiaris|2005                                  0.00%    passed     97.21%
+ 134  MT012802.1|South||Colombia|Canis_lupus_familiaris|2012                                   0.05%    passed     98.16%
+ 135  MT012803.1|South||Colombia|Canis_lupus_familiaris|2017                                   0.20%    passed     98.73%
+ 136  MN824467.1|America|KY/2018/Raccoon|USA|Procyon_lotor|2018                                0.00%    passed     86.18%
+ 137  MT136705.1||CCR-6|Tanzania|Crocuta_crocuta|1993-12-20                                    0.00%    passed     98.44%
+ 138  MT136706.1||CCR-7|Tanzania|Crocuta_crocuta|1993-12-23                                    0.00%    passed     98.57%
+ 139  MT136707.1||CCR-10|Tanzania|Crocuta_crocuta|1994-06-20                                   0.00%    passed     98.68%
+ 140  MT136708.1||CCR-11|Tanzania|Crocuta_crocuta|1994-07-03                                   0.00%    passed     98.48%
+ 141  MT136709.1||CCR-12|Tanzania|Crocuta_crocuta|1994-07-09                                   0.00%    passed     98.53%
+ 142  MT136710.1||CCR-282|Tanzania|Crocuta_crocuta|1994-01-18                                  0.13%    passed     98.64%
+ 143  MT136711.1||CFA-51|Tanzania|Canis_lupus_familiaris|1994-09-09                            0.00%    passed     99.67%
+ 144  MT136712.1||CFA-52|Tanzania|Canis_lupus_familiaris|1994-08-23                            0.00%    passed     99.69%
+ 145  MT136713.1||CFA-54|Tanzania|Canis_lupus_familiaris|1994-11-18                            0.00%    passed     99.55%
+ 146  MT136714.1||OME-8|Tanzania|Otocyon_megalotis|1994-07-16                                  0.00%    passed     99.69%
+ 147  MT136715.1||OME-9|Tanzania|Otocyon_megalotis|1994-07-25                                  0.00%    passed     99.69%
+ 148  MT136716.1||PLE-589|Tanzania|Panthera_leo|1994-01-22                                     0.00%    passed     98.65%
+ 149  MT136717.1||PLE-595|Tanzania|Panthera_leo|1994-02-03                                     0.00%    passed     98.44%
+ 150  MT136718.1||PLE-635|Tanzania|Panthera_leo|1994-02-18                                     0.00%    passed     98.77%
+ 151  MT136719.1||PLE-640|Tanzania|Panthera_leo|1994-02-07                                    23.40%    passed     63.37%
+ 152  MT136720.1||PLE-641|Tanzania|Panthera_leo|1994-11-15                                     0.00%    passed     98.17%
+ 153  MT136721.1||PLE-652|Tanzania|Panthera_leo|1994-07-30                                     5.91%    passed     79.30%
+ 154  MT136722.1||PLE-653|Tanzania|Panthera_leo|1994-01-28                                     0.00%    passed     98.66%
+ 155  MT136723.1||PLE-654|Tanzania|Panthera_leo|1994-01-31                                     0.00%    passed     98.32%
+ 156  MT136724.1||PLE-656|Tanzania|Panthera_leo|1994-02-20                                     5.91%    passed     82.65%
+ 157  MT136725.1||PLE-658|Tanzania|Panthera_leo|1994-05-21                                     3.21%    passed     99.38%
+ 158  MT149210.1|Asia-4|CDV-CP8_TH/2017|Thailand|Paradoxurus_hermaphroditus|2017-01            0.00%    passed     98.64%
+ 159  MH484613.1|Europe/South|CDV_Kiki|Brazil|Canis_lupus_familiaris|2017                      0.00%    passed     96.64%
+ 160  MN326827.1||ZC1310M|China|Neogale_vison|2013-10                                          0.00%    passed     99.18%
+ 161  MK037459.1||MCL-18-Li-1/1|India|Panthera_leo|2018                                        0.00%    passed     99.69%
+ 162  MK037460.1||MCL-18-Li-9/1|India|Panthera_leo|2018                                        0.37%    passed     99.27%
+ 163  MK037461.1||MCL-18-Li-10/2|India|Panthera_leo|2018                                       0.25%    passed     99.81%
+ 164  MK037462.1||MCL-18-Li-12/1|India||2018                                                   1.53%    passed     99.21%
+ 165  MK037463.1||MCL-18-Li-12/3|India||2018                                                   1.23%    passed     98.60%
+ 166  MK037464.1||MCL-18-Li-10/1|India|Panthera_leo|2018                                       1.18%    passed     87.00%
+ 167  MK037465.1||MCL-18-Li-9/2|India|Panthera_leo|2018                                        0.96%    passed     88.14%
+ 168  MK037466.1||MCL-18-Li-9/3|India|Panthera_leo|2018                                        0.36%    passed     99.46%
+ 169  MK037467.1||MCL-18-Li-10/3|India|Panthera_leo|2018                                       0.18%    passed     99.90%
+ 170  MK037468.1||MCL-18-Li-11/1|India|Panthera_leo|2018                                       0.68%    passed     96.29%
+ 171  MK037469.1||MCL-18-Li-11/2|India|Panthera_leo|2018                                       2.23%    passed     92.81%
+ 172  MN267060.1||S460|Germany|Procyon_lotor|2015                                              0.00%    passed     96.21%
+ 173  MN267061.1||S272|Germany|Canidae|2016                                                    0.00%    passed     93.58%
+ 174  MN267062.1||S466|Germany|Procyon_lotor|2015                                              0.00%    passed     95.69%
+ 175  MN267063.1||PS88-428|Russia|Pusa_sibirica|1988                                           0.00%    passed     95.76%
+ 176  MN267064.1||PC00-46|Kazakhstan|Pusa_caspica|2000                                         0.00%    passed     95.17%
+ 177  MN267065.1||PC00-20|Kazakhstan|Pusa_caspica|2000                                         0.00%    passed     95.32%
+ 178  MN267066.1||PC00-21|Azerbaijan|Pusa_caspica|2000                                         0.00%    passed     95.53%
+ 179  MK408453.1||LNDL_17_M4|China|Mustela_lutreola|2017-06                                    0.01%    passed     99.90%
+ 180  MK408454.1||SDZC_17_M2|China|Mustela_lutreola|2017-06                                    0.00%    passed     99.93%
+ 181  MK431532.1||Asia-1/Canine/NTU_2005-1|Taiwan|Canis_lupus_familiaris|2005-03               0.00%    passed     99.05%
+ 182  KP769803.1|Asia-1||China|Ailuropoda_melanoleuca|2014-12-31                               0.01%    passed     99.78%
+ 183  MH496772.1|Asia-4|CDV1_TH/2014|Thailand|Canis_lupus_familiaris|2014                      0.02%    passed     98.55%
+ 184  MH496773.1|Asia-1|CDV2_TH/2014|Thailand|Canis_lupus_familiaris|2014                      0.01%    passed     97.64%
+ 185  MH496774.1|Asia-4|CDV3_TH/2014|Thailand|Canis_lupus_familiaris|2014                      0.00%    passed     99.41%
+ 186  MH496775.1|Asia-1|CDV4_TH/2014|Thailand|Canis_lupus_familiaris|2014                      0.00%    passed     91.10%
+ 187  MH496776.1|Asia-1|CDV7_TH/2014|Thailand|Canis_lupus_familiaris|2014                      0.01%    passed     99.65%
+ 188  MH496777.1|Asia-4|CDV8_TH/2014|Thailand|Canis_lupus_familiaris|2014                      0.00%    passed     98.09%
+ 189  MH496778.1|Asia-4|CDV5_TH/2014|Thailand|Canis_lupus_familiaris|2014                      0.01%    passed     98.38%
+ 190  MH496779.1|Asia-1|CDV6_TH/2014|Thailand|Canis_lupus_familiaris|2014                      0.01%    passed     99.73%
+ 191  MH337872.1||SD16F|China|Canidae|2016-07                                                  0.00%    passed     98.05%
+ 192  MH316137.1||CDV1747_ITL2018|Italy|Canis_lupus|2018-03-02                                 0.30%    passed     99.14%
+ 193  KX774415.1|||Russia|Panthera_tigris_altaica|2004-01                                      0.71%    passed     98.66%
+ 194  MF926597.1||BJ16B2|China|Canis_lupus_familiaris|2016-11                                  0.01%    passed     97.28%
+ 195  MF926599.1||BJ16B35|China|Canis_lupus_familiaris|2016-09                                 0.00%    passed     98.40%
+ 196  MF926600.1||BJ16B53|China|Canis_lupus_familiaris|2016-09                                 0.00%    passed     97.56%
+ 197  MF926601.1||BJ16C0|China|Canis_lupus_familiaris|2016-10                                  0.00%    passed     85.59%
+ 198  MF926602.1||BJ16C7|China|Canis_lupus_familiaris|2016-12                                  0.00%    passed     83.49%
+ 199  MF926603.1||BJ16C8|China|Canis_lupus_familiaris|2017-01                                  0.00%    passed     83.80%
+ 200  MF926604.1||BJ16C9|China|Canis_lupus_familiaris|2017-01                                  0.00%    passed     88.18%
+ 201  MH382872.1||CDV/LDM-BTU-5|Brazil||2013-02-07                                             0.00%    passed     94.92%
+ 202  MH426739.1||CDV/LDM-BTU-1|Brazil|Cerdocyon_thous|2014-03-15                              0.11%    passed     91.08%
+ 203  LC342298.1|||Japan|Procyon_lotor|2016-03-15                                              0.00%    passed     93.54%
+ 204  MH349541.1||CDV/LDM-BTU-3|Brazil||2013-06-01                                             0.00%    passed     97.88%
+ 205  MH362795.1|||Brazil||2013-03-01                                                          0.00%    passed     93.13%
+ 206  MF437053.1|||Gabon|Canis_lupus_familiaris|2015                                           0.00%    passed     99.98%
+ 207  KX709880.1|Asia-1|Henan|China|Canis_lupus_familiaris|2012-07-18                          0.09%    passed     99.86%
+ 208  MF041963.1||CDV06|Ethiopia|Canis_simensis|2016-09-30                                     0.00%    passed     99.87%
+ 209  KY971528.1|South|WT01SA|South_Africa|Lycaon_pictus|2016-05-01                            0.00%    passed     97.84%
+ 210  KY971532.1|South|WT02SA|South_Africa|Crocuta_crocuta|2017-01                             0.00%    passed     97.76%
+ 211  KX434626.1||CDV/LDM-BTU-2|Brazil||2013-06-20                                             0.01%    passed     93.00%
+ 212  KU666057.1|||USA|Procyon_lotor|2012-11-24                                                0.00%    passed     97.29%
+ 213  KU578253.1||SE/2007/African_wild_dog||Lycaon_pictus|2007                                 0.00%    passed     99.43%
+ 214  KU578254.1||SE/2011/golden_jackal||Canis_aureus|2011                                     0.00%    passed     99.03%
+ 215  KU578255.1||SNP/1994/spotted_hyaena_1||Hyaenidae|1994                                    0.00%    passed     98.72%
+ 216  KU578256.1||SNP/1994/African_lion||Panthera_leo|1994                                     0.00%    passed     98.17%
+ 217  KU578257.1||SE/1994/domestic_dog||Canis_lupus_familiaris|1994                            0.00%    passed     99.88%
+ 218  LC159587.1|||Viet_Nam|Canis_lupus_familiaris|2014-08-16                                  0.00%    passed     99.93%
+ 219  KX545421.1||CDV599/2016|Italy|Canidae|2016-02-02                                         0.00%    passed     99.65%
+ 220  KX347928.1||CDV-AH|China|Canis_lupus_familiaris|2015-10-10                               0.00%    passed     99.74%
+ 221  KX499865.1||ZYL|China|Vulpes|2015                                                        0.00%    passed     98.68%
+ 222  KX024708.1||CDV11956/2015|Italy|Meles_meles|2015-09-28                                   0.00%    passed     99.30%
+ 223  KX024709.1||CDV12254/2015|Italy|Meles_meles|2015-10-05                                   0.01%    passed     99.23%
+ 224  KP793921.1|Asia-1|giant_panda/SX/2014|China|Ailuropoda_melanoleuca|2014                  0.00%    passed     99.85%
+ 225  KP738610.1|Asia-1||China|Nyctereutes_procyonoides|2014-10-01                             0.00%    passed     99.88%
+ 226  KP677502.1|Asia-1||China|Ailuropoda_melanoleuca|2015-01-04                               0.00%    passed     99.69%
+ 227  KP765763.1||SD_14_7|China|Canidae|2014-07-03                                             0.00%    passed     99.85%
+ 228  KP765764.1||LN_10_1|China|Canidae|2010                                                   0.00%    passed     99.69%
+ 229  KM926612.1|||China|Mustela_putorius|1992                                                 0.00%    passed     89.23%
+ 230  KF640687.1|||USA|Canis_lupus_familiaris|                                                 0.00%    passed     97.50%
+ 231  KF856711.1||BJ-01|China|Simiiformes|2006                                                 0.00%    passed     97.60%
+ 232  KJ994343.1|Asia-1||China|Nyctereutes_procyonoides|2013-10                                0.00%    passed     99.60%
+ 233  KM280689.1|||Uruguay|Canis_lupus_familiaris|2012                                         0.00%    passed     96.51%
+ 234  KJ848781.1|Asia-1|CDV-RD-JL|China|Nyctereutes_procyonoides|2014-04                       0.00%    passed     98.98%
+ 235  KJ466106.1||CDV_SY|China|Nyctereutes_procyonoides|2012                                   0.00%    passed     98.10%
+ 236  KJ123771.1||171391-513|USA|Canis_lupus_familiaris|2004                                   0.00%    passed     95.52%
+ 237  KF914669.1||CDV2784/2013|Italy|Canis_lupus_familiaris|2013-05-15                         0.00%    passed     99.81%
+ 238  KC427278.1|Asia-1|Hebei|China|Mustela_lutreola|2008-07-06                                0.00%    passed     99.46%
+ 239  JX681125.1|||China|Canidae|2006-07                                                       0.00%    passed     99.13%
+ 240  AB687720.2|||Japan|Macaca_fascicularis|2008-07                                           0.00%    passed     97.86%
+ 241  AB687721.2|||Japan|Macaca_fascicularis|2008-07                                           0.00%    passed     97.57%
+ 242  JN896331.1|||China|Canis_lupus_familiaris|2010                                           0.03%    passed     99.86%
+ 243  HQ540292.1|||China|Canis_lupus_familiaris|2007                                           0.00%    passed     99.81%
+ 244  HQ540293.1|||China|Canidae|2006                                                          0.00%    passed     99.13%
+ 245  HM852904.1||MKY-KM08|China|Macaca_mulatta|2008                                           0.00%    passed     99.42%
+ 246  HM063009.1|||Kazakhstan|Mustela_lutreola|1989                                            0.00%    passed     86.18%
+ 247  HM046486.1|||Kazakhstan|Phocidae|2007                                                    0.01%    passed     86.44%
+ 248  EU716337.1||164071|USA|Canis_lupus_familiaris|2004-09-04                                 0.00%    passed     99.38%
+****  TOTAL                                                                                    0.92%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: PP847350.1||NHP-4_BR|Brazil|Callithrix_penicillata|2018-06 is identical to PP847348.1||NHP-3_BR|Brazil|Callithrix_penicillata|2018-06 but kept for subsequent analysis
+NOTE: OQ442788.1||1BN|Kazakhstan|Pusa_caspica|2008-11 is identical to OQ442787.1||1AP|Kazakhstan|Pusa_caspica|2008-11 but kept for subsequent analysis
+NOTE: OK557792.1||Hungary/2021/16|Hungary|Vulpes_vulpes|2021 is identical to OK557790.1||Hungary/2021/12|Hungary|Vulpes_vulpes|2021 but kept for subsequent analysis
+NOTE: MT136715.1||OME-9|Tanzania|Otocyon_megalotis|1994-07-25 is identical to MT136714.1||OME-8|Tanzania|Otocyon_megalotis|1994-07-16 but kept for subsequent analysis
+NOTE: KU578256.1||SNP/1994/African_lion||Panthera_leo|1994 is identical to MT136720.1||PLE-641|Tanzania|Panthera_leo|1994-11-15 but kept for subsequent analysis
+NOTE: HQ540293.1|||China|Canidae|2006 is identical to JX681125.1|||China|Canidae|2006-07 but kept for subsequent analysis
+NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: PP847351.1||NHP-2_BR|Brazil|Callithrix_penicillata|2018-06 (identical to PP847348.1||NHP-3_BR|Brazil|Callithrix_penicillata|2018-06) is ignored but added at the end
+NOTE: PP847352.1||NHP-1_BR|Brazil|Callithrix_penicillata|2018-06 (identical to PP847348.1||NHP-3_BR|Brazil|Callithrix_penicillata|2018-06) is ignored but added at the end
+NOTE: OK557793.1||Hungary/2021/17|Hungary|Vulpes_vulpes|2021 (identical to OK557790.1||Hungary/2021/12|Hungary|Vulpes_vulpes|2021) is ignored but added at the end
+Alignment was printed to aln.trim.morbillivirus_canis_dataset.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to aln.trim.morbillivirus_canis_dataset.fasta.uniqueseq.phy
+
+Creating fast initial parsimony tree by random order stepwise addition...
+1.213 seconds, parsimony score: 23043 (based on 7589 sites)
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -155138.200
+2. Current log-likelihood: -155134.187
+3. Current log-likelihood: -155130.776
+4. Current log-likelihood: -155127.196
+5. Current log-likelihood: -155123.548
+6. Current log-likelihood: -155119.876
+7. Current log-likelihood: -155116.233
+8. Current log-likelihood: -155112.647
+9. Current log-likelihood: -155109.160
+10. Current log-likelihood: -155105.800
+11. Current log-likelihood: -155102.611
+12. Current log-likelihood: -155099.613
+13. Current log-likelihood: -155096.866
+14. Current log-likelihood: -155094.346
+15. Current log-likelihood: -155092.105
+16. Current log-likelihood: -155090.144
+17. Current log-likelihood: -155088.458
+18. Current log-likelihood: -155087.053
+19. Current log-likelihood: -155085.896
+Optimal log-likelihood: -155084.672
+Rate parameters:  A-C: 1.39097  A-G: 6.81883  A-T: 0.68466  C-G: 0.32474  C-T: 8.87324  G-T: 1.00000
+Base frequencies:  A: 0.306  C: 0.211  G: 0.217  T: 0.265
+Proportion of invariable sites: 0.373
+Gamma shape alpha: 1.576
+Parameters optimization took 19 rounds (10.380 sec)
+Time for fast ML tree search: 16.804 seconds
+
+NOTE: ModelFinder requires 260 MB RAM!
+ModelFinder will test up to 88 DNA models (sample size: 15477 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         162247.087   495 325484.174   325516.951   329269.493
+  2  GTR+F+I       155891.924   496 312775.849   312808.761   316568.815
+  3  GTR+F+G4      155248.162   496 311488.325   311521.237   315281.292
+  4  GTR+F+I+G4    155082.162   497 311158.323   311191.370   314958.937
+  8  SYM+I+G4      155396.574   494 311781.148   311813.791   315558.820
+ 12  TVM+F+I+G4    155161.024   496 311314.048   311346.960   315107.015
+ 16  TVMe+I+G4     155428.791   493 311843.582   311876.091   315613.607
+ 20  TIM3+F+I+G4   155441.801   495 311873.602   311906.379   315658.921
+ 24  TIM3e+I+G4    155874.420   492 312732.841   312765.216   316495.219
+ 28  TIM2+F+I+G4   155393.219   495 311776.438   311809.215   315561.757
+ 32  TIM2e+I+G4    155693.029   492 312370.057   312402.433   316132.436
+ 36  TIM+F+I+G4    155181.551   495 311353.102   311385.879   315138.421
+ 40  TIMe+I+G4     155630.889   492 312245.777   312278.153   316008.155
+ 44  TPM3u+F+I+G4  155519.813   494 312027.625   312060.268   315805.298
+ 48  TPM3+I+G4     155910.906   491 312803.812   312836.053   316558.543
+ 52  TPM2u+F+I+G4  155471.403   494 311930.805   311963.449   315708.478
+ 56  TPM2+I+G4     155725.049   491 312432.098   312464.340   316186.829
+ 60  K3Pu+F+I+G4   155259.321   494 311506.642   311539.285   315284.314
+ 64  K3P+I+G4      155667.372   491 312316.745   312348.987   316071.476
+ 68  TN+F+I+G4     155453.869   494 311895.739   311928.382   315673.411
+ 72  TNe+I+G4      155874.675   491 312731.350   312763.591   316486.081
+ 76  HKY+F+I+G4    155531.264   493 312048.528   312081.037   315818.554
+ 80  K2P+I+G4      155911.091   490 312802.183   312834.292   316549.267
+ 84  F81+F+I+G4    166678.336   492 334340.673   334373.048   338103.051
+ 88  JC+I+G4       166799.748   489 334577.495   334609.471   338316.932
+Akaike Information Criterion:           GTR+F+I+G4
+Corrected Akaike Information Criterion: GTR+F+I+G4
+Bayesian Information Criterion:         GTR+F+I+G4
+Best-fit model: GTR+F+I+G4 chosen according to BIC
+
+All model information printed to aln.trim.morbillivirus_canis_dataset.fasta.model.gz
+CPU time for ModelFinder: 215.939 seconds (0h:3m:35s)
+Wall-clock time for ModelFinder: 71.976 seconds (0h:1m:11s)
+Generating 1000 samples for ultrafast bootstrap (seed: 294970)...
+
+NOTE: 260 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.773 / Estimate: 0.000, 0.441 / LogL: -155248.213
+Init pinv, alpha: 0.057, 1.773 / Estimate: 0.383, 1.684 / LogL: -155082.293
+Init pinv, alpha: 0.113, 1.773 / Estimate: 0.387, 1.723 / LogL: -155081.874
+Init pinv, alpha: 0.170, 1.773 / Estimate: 0.387, 1.725 / LogL: -155081.900
+Init pinv, alpha: 0.227, 1.773 / Estimate: 0.387, 1.723 / LogL: -155081.969
+Init pinv, alpha: 0.283, 1.773 / Estimate: 0.387, 1.726 / LogL: -155082.029
+Init pinv, alpha: 0.340, 1.773 / Estimate: 0.387, 1.723 / LogL: -155082.138
+Init pinv, alpha: 0.396, 1.773 / Estimate: 0.391, 1.776 / LogL: -155082.079
+Init pinv, alpha: 0.453, 1.773 / Estimate: 0.396, 1.826 / LogL: -155082.226
+Init pinv, alpha: 0.510, 1.773 / Estimate: 0.395, 1.824 / LogL: -155082.372
+Optimal pinv,alpha: 0.387, 1.723 / LogL: -155081.874
+
+Parameters optimization took 221.014 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.262811 secs using 362.1% CPU
+Computing ML distances took 0.265984 sec (of wall-clock time) 0.958534 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000407934 secs using 335.3% CPU
+Computing RapidNJ tree took 0.015843 sec (of wall-clock time) 0.020321 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -155863.816
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.904 second
+Computing log-likelihood of 98 initial trees ... 12.656 seconds
+Current best score: -155081.874
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -155081.831
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -155074.893
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -155067.634
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -155061.075
+Iteration 10 / LogL: -155063.249 / Time: 0h:5m:35s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 17: -155058.899
+Iteration 20 / LogL: -155059.747 / Time: 0h:5m:59s
+Finish initializing candidate tree set (20)
+Current best tree score: -155058.899 / CPU time: 65.510
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -155060.209 / Time: 0h:6m:32s (0h:16m:2s left)
+Iteration 40 / LogL: -155059.855 / Time: 0h:7m:6s (0h:11m:39s left)
+Iteration 50 / LogL: -155059.491 / Time: 0h:7m:40s (0h:8m:50s left)
+Log-likelihood cutoff on original alignment: -155163.906
+Iteration 60 / LogL: -155059.332 / Time: 0h:8m:13s (0h:6m:47s left)
+Iteration 70 / LogL: -155059.266 / Time: 0h:8m:47s (0h:5m:10s left)
+Iteration 80 / LogL: -155378.635 / Time: 0h:9m:20s (0h:3m:48s left)
+Iteration 90 / LogL: -155059.288 / Time: 0h:9m:53s (0h:2m:38s left)
+Iteration 100 / LogL: -155072.429 / Time: 0h:10m:26s (0h:1m:35s left)
+Log-likelihood cutoff on original alignment: -155163.906
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 110 / LogL: -155059.139 / Time: 0h:11m:0s (0h:8m:5s left)
+TREE SEARCH COMPLETED AFTER 118 ITERATIONS / Time: 0h:11m:26s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -155058.899
+Optimal log-likelihood: -155058.889
+Rate parameters:  A-C: 1.39591  A-G: 6.85273  A-T: 0.68546  C-G: 0.32501  C-T: 8.88943  G-T: 1.00000
+Base frequencies:  A: 0.306  C: 0.211  G: 0.217  T: 0.265
+Proportion of invariable sites: 0.390
+Gamma shape alpha: 1.766
+Parameters optimization took 1 rounds (0.632 sec)
+BEST SCORE FOUND : -155058.889
+Creating bootstrap support values...
+Split supports printed to NEXUS file aln.trim.morbillivirus_canis_dataset.fasta.splits.nex
+Total tree length: 1.605
+
+Total number of iterations: 118
+CPU time used for tree search: 1061.195 sec (0h:17m:41s)
+Wall-clock time used for tree search: 392.723 sec (0h:6m:32s)
+Total CPU time used: 1955.581 sec (0h:32m:35s)
+Total wall-clock time used: 687.897 sec (0h:11m:27s)
+
+Computing bootstrap consensus tree...
+Reading input file aln.trim.morbillivirus_canis_dataset.fasta.splits.nex...
+245 taxa and 943 splits.
+Consensus tree written to aln.trim.morbillivirus_canis_dataset.fasta.contree
+Reading input trees file aln.trim.morbillivirus_canis_dataset.fasta.contree
+Log-likelihood of consensus tree: -155060.607
+
+Analysis results written to: 
+  IQ-TREE report:                aln.trim.morbillivirus_canis_dataset.fasta.iqtree
+  Maximum-likelihood tree:       aln.trim.morbillivirus_canis_dataset.fasta.treefile
+  Likelihood distances:          aln.trim.morbillivirus_canis_dataset.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          aln.trim.morbillivirus_canis_dataset.fasta.splits.nex
+  Consensus tree:                aln.trim.morbillivirus_canis_dataset.fasta.contree
+  Screen log file:               aln.trim.morbillivirus_canis_dataset.fasta.log
+
+Date and Time: Wed Apr  8 18:55:50 2026
