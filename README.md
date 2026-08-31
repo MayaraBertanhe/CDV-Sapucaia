@@ -6,15 +6,15 @@ DOI:
 
 Repository Contents
 
-host_assemblies/
+host_mitochondrial_analises/
 
-FASTA file containing the five mitochondrial genes assembled from the study specimens.
+FASTA files containing the alignment of the five mitochondrial genes assembled from the study specimens and the entires dataset. ML trees generated for each gene and the tree of concatenated data.
 
 phylogeny/
 
 ML/ — Trimmed alignment in FASTA format, IQ-TREE log file, and resulting tree file.
 
-BEAST/ — BEAST XML files and log files for both strict and relaxed molecular-clock analyses, including traits and general logs. Also includes the combined strict-clock trees and log file used for the TreeAnnotator analysis.
+BEAST/ — BEAST XML files and log files for strict molecular-clock analyses, including traits and general logs. Also includes the combined strict-clock trees and log file used for the TreeAnnotator analysis.
 
 structural_modelling/
 
