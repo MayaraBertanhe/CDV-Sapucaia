@@ -4,8 +4,9 @@
 CDV-Sapucaia/
 │
 ├── host_mitochondrial_analises/
-│   └── FASTA files containing the alignment of the five mitochondrial genes assembled from the study specimens and the entire dataset.
-│       ML trees generated for each gene and the tree of concatenated data.
+│   └── FASTA files containing the alignment of the five mitochondrial genes assembled from the
+│       study specimens and the entire dataset. ML trees generated for each gene and the tree of
+│       concatenated data.
 │
 ├── phylogeny/
 │   │
@@ -14,8 +15,9 @@ CDV-Sapucaia/
 │   │
 │   ├── BEAST/
 │   │   └── strict/
-│   │       └── BEAST XML files and log files for strict molecular-clock analyses, including traits and general logs.
-│   │           Also includes the combined strict-clock trees and log file used for the TreeAnnotator analysis.
+│   │       └── BEAST XML files and log files for strict molecular-clock analyses, including traits 
+│   │           and general logs. Also includes the combined strict-clock trees and log file used for
+│   │           the TreeAnnotator analysis. 
 │   │
 │   ├── TreeTime/
 │   │   └── Alignment and tree annotated with detected mutations.
@@ -27,10 +29,12 @@ CDV-Sapucaia/
 │   └── Fold analysis outputs and FASTA files for the viral and host proteins.
 │
 ├── viralQC/
-│   └── Taxonomic classification results in TSV format. The corresponding .tbl files are available through GenBank.
+│   └── Taxonomic classification results in TSV format. The corresponding .tbl files are available
+│       through GenBank.  
 │
 └── viral_unity/
-    └── Krona plots summarizing taxonomic classifications generated using Kraken2 and DIAMOND for samples NP523 and NP27.
+    └── Krona plots summarizing taxonomic classifications generated using Kraken2 and DIAMOND for
+        samples NP523 and NP27.
 ```
 
 ## Study
